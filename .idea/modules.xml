@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/recommender/ContentRecommender/ContentRecommender.iml" filepath="$PROJECT_DIR$/recommender/ContentRecommender/ContentRecommender.iml" />
       <module fileurl="file://$PROJECT_DIR$/recommender/DataLoader/DataLoader.iml" filepath="$PROJECT_DIR$/recommender/DataLoader/DataLoader.iml" />
       <module fileurl="file://$PROJECT_DIR$/MovieRecommendSystem.iml" filepath="$PROJECT_DIR$/MovieRecommendSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/recommender/OfflineRecommender/OfflineRecommender.iml" filepath="$PROJECT_DIR$/recommender/OfflineRecommender/OfflineRecommender.iml" />

@@ -10,9 +10,11 @@
         <module name="StatisticsRecommender" />
         <module name="OfflineRecommender" />
         <module name="StreamingRecommender" />
+        <module name="ContentRecommender" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ContentRecommender" target="1.8" />
       <module name="DataLoader" target="1.8" />
       <module name="MovieRecommendSystem" target="1.8" />
       <module name="OfflineRecommender" target="1.8" />
