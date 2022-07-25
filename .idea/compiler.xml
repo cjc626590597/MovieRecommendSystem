@@ -7,15 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DataLoader" />
-        <module name="StatisticsRecommender" />
-        <module name="OfflineRecommender" />
         <module name="StreamingRecommender" />
+        <module name="businessServer" />
+        <module name="OfflineRecommender" />
+        <module name="KafkaStream" />
         <module name="ContentRecommender" />
+        <module name="StatisticsRecommender" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="businessServer" target="1.8" />
       <module name="ContentRecommender" target="1.8" />
       <module name="DataLoader" target="1.8" />
+      <module name="KafkaStream" target="1.8" />
       <module name="MovieRecommendSystem" target="1.8" />
       <module name="OfflineRecommender" target="1.8" />
       <module name="recommender" target="1.8" />

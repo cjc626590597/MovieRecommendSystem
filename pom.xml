@@ -10,7 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>recommender</module>
+        <module>businessServer</module>
         <module>recommender/OfflineRecommender</module>
+        <module>recommender/KafkaStream</module>
     </modules>
 
     <properties>
